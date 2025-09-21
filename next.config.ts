@@ -29,8 +29,7 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
-  // 构建优化
-  swcMinify: true,
+  // 构建优化 - swcMinify 在 Next.js 15 中默认启用，不需要显式设置
   distDir: '.next',
 };
 
