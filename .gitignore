@@ -16,6 +16,8 @@
 # next.js
 /.next/
 /out/
+# 排除 webpack 缓存文件（Cloudflare Pages 大小限制）
+/.next/cache/
 
 # production
 /build

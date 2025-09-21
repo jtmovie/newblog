@@ -21,6 +21,17 @@ const nextConfig: NextConfig = {
   // 生产环境优化
   compress: true,
   poweredByHeader: false,
+  // Cloudflare Pages 优化 - 避免大文件
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      // 生产环境禁用某些缓存以减小文件大小
+      config.cache = false;
+    }
+    return config;
+  },
+  // 构建优化
+  swcMinify: true,
+  distDir: '.next',
 };
 
 const withMDX = createMDX({
