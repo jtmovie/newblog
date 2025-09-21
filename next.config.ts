@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
+  // Cloudflare Pages 兼容性
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   // 图片优化配置
   images: {
     unoptimized: false, // Cloudflare Pages 支持图片优化
