@@ -1,5 +1,8 @@
 import type { MetadataRoute } from 'next'
- 
+
+// 静态导出配置
+export const dynamic = 'force-static'
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://xxx.com/sitemap.xml',
+    sitemap: 'https://wechatessence.com/sitemap.xml',
   }
 }
