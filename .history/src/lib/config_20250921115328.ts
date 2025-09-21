@@ -54,7 +54,7 @@ export const config = {
     ],
   },
   seo: {
-    metadataBase: new URL("https://wechatessence.com"),
+    metadataBase: new URL("https://xxx.com"),
     alternates: {
       canonical: './',
     },
@@ -64,7 +64,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@jtcoding",
+      creator: "@xxx",
     },
   },
 };

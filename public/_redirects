@@ -1,0 +1,7 @@
+# Cloudflare Pages 重定向配置
+
+# SPA 路由回退（对于客户端路由）
+/*    /index.html   200
+
+# 可选：添加特定重定向
+# /old-path  /new-path  301

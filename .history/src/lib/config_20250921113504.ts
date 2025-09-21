@@ -1,9 +1,9 @@
 export const config = {
   site: {
     title: "shisanzhang",
-    name: "shisanzhang",
-    description: "一个自留地",
-    keywords: ["营销人", "AI", "产品人","商业思考","思考","营销","微信公众号","杂谈","深度思考","学习"],
+    name: "字节",
+    description: "Nextjs Blog Template",
+    keywords: ["Nextjs Blog Template", "AI", "Full Stack Developer"],
     url: "https://wechatessence.com",
     baseUrl: "https://wechatessence.com",
     image: "https://wechatessence.com",
@@ -27,14 +27,14 @@ export const config = {
   author: {
     name: "十三张",
     email: "805118798@qq.com",
-    bio: "多留点文字的东西，别啥都忘了",
+    bio: "这是一个 Nextjs 博客模板",
   },
   social: {
-    github: "https://github.com/jtmovie",
-    x: "https://x.com/jtcoding",
-    xiaohongshu: "https://www.xiaohongshu.com/user/profile/5d3ce3b200000000110387ad",
-    wechat: "https://t.zsxq.com/19KGcfNrF",
-    buyMeACoffee: "https://www.buymeacoffee.com/shisanzhang",
+    github: "https://github.com/xxx",
+    x: "https://x.com/xxx",
+    xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
+    wechat: "https://storage.xxx.com/images/wechat-official-account.png",
+    buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
     repo: "guangzhengli/hugo-ladder-exampleSite",
@@ -47,14 +47,10 @@ export const config = {
         title: "文章", 
         href: "/blog",
       },
-      {
-        title: "电影十三张",
-        href: "/jtmovie"
-      },
     ],
   },
   seo: {
-    metadataBase: new URL("https://wechatessence.com"),
+    metadataBase: new URL("https://xxx.com"),
     alternates: {
       canonical: './',
     },
@@ -64,7 +60,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@jtcoding",
+      creator: "@xxx",
     },
   },
 };

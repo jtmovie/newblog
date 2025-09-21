@@ -46,15 +46,14 @@ export const config = {
       { 
         title: "文章", 
         href: "/blog",
-      },
-      {
+        
         title: "电影十三张",
         href: "/jtmovie"
       },
     ],
   },
   seo: {
-    metadataBase: new URL("https://wechatessence.com"),
+    metadataBase: new URL("https://xxx.com"),
     alternates: {
       canonical: './',
     },
@@ -64,7 +63,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@jtcoding",
+      creator: "@xxx",
     },
   },
 };

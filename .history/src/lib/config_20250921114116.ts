@@ -31,10 +31,10 @@ export const config = {
   },
   social: {
     github: "https://github.com/jtmovie",
-    x: "https://x.com/jtcoding",
-    xiaohongshu: "https://www.xiaohongshu.com/user/profile/5d3ce3b200000000110387ad",
-    wechat: "https://t.zsxq.com/19KGcfNrF",
-    buyMeACoffee: "https://www.buymeacoffee.com/shisanzhang",
+    x: "https://x.com/xxx",
+    xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
+    wechat: "https://storage.xxx.com/images/wechat-official-account.png",
+    buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
     repo: "guangzhengli/hugo-ladder-exampleSite",
@@ -47,14 +47,10 @@ export const config = {
         title: "文章", 
         href: "/blog",
       },
-      {
-        title: "电影十三张",
-        href: "/jtmovie"
-      },
     ],
   },
   seo: {
-    metadataBase: new URL("https://wechatessence.com"),
+    metadataBase: new URL("https://xxx.com"),
     alternates: {
       canonical: './',
     },
@@ -64,7 +60,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@jtcoding",
+      creator: "@xxx",
     },
   },
 };

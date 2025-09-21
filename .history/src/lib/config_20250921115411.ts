@@ -64,7 +64,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@jtcoding",
+      creator: "@xxx",
     },
   },
 };
