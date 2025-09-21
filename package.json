@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && node scripts/clean-build.js",
-    "build:cf": "next build && node scripts/clean-build.js",
+    "build": "next build",
+    "build:cf": "next build",
     "start": "next start",
     "lint": "next lint",
     "generate-sitemap": "node scripts/generate-sitemap.js",
