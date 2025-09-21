@@ -7,6 +7,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "build:cf": "next build",
+    "export": "next build",
     "start": "next start",
     "lint": "next lint",
     "generate-sitemap": "node scripts/generate-sitemap.js",

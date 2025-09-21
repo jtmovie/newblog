@@ -4,22 +4,13 @@ import { withContentCollections } from "@content-collections/next";
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
-  // 优化构建配置
-  experimental: {
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
-  },
-  // Cloudflare Pages 兼容性
+  // Cloudflare Pages 静态导出配置
+  output: 'export',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
-  // 图片优化配置
+  // 图片优化配置 - 静态导出需要禁用
   images: {
-    unoptimized: false, // Cloudflare Pages 支持图片优化
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'wechatessence.com',
-      },
-    ],
+    unoptimized: true, // 静态导出必须禁用图片优化
   },
   // 生产环境优化
   compress: true,
@@ -32,7 +23,7 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
-  // 构建优化 - swcMinify 在 Next.js 15 中默认启用，不需要显式设置
+  // 构建优化
   distDir: '.next',
 };
 
